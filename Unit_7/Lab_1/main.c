@@ -24,6 +24,9 @@ int main(void)
 		{
 			switch(flag)
 			{
+				
+
+				
 				case 0:SetBit(PORTA,0);break;
 				case 1:SetBit(PORTA,1);ClearBit(PORTA,0);break;
 				case 2:SetBit(PORTA,2);ClearBit(PORTA,1);break;
